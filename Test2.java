@@ -105,6 +105,8 @@ public class Test2 {
 			String userName="sajediba", password="";
 			 
 //			password = getPassFromTerminal();
+			//After compiling, run using:
+			//java -classpath ~/Desktop/291/EclipseWS/JDBC2/src:/oracle/jdbc/lib/ojdbc6.jar Test2
 			password = getPassFromDialog();
 
 			Class drvClass = Class.forName("oracle.jdbc.driver.OracleDriver"); //(dynamically) loads jdbc driver
