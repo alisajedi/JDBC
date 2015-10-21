@@ -102,7 +102,7 @@ public class Test2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{
-			String userName="sajediba", password="";
+			String userName="YOUR_SQLPLUS_USERNAME", password="";
 			 
 //			password = getPassFromTerminal();
 			//After compiling, run using:
