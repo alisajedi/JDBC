@@ -105,8 +105,9 @@ public class Test2 {
 			String userName="YOUR_SQLPLUS_USERNAME", password="";
 			 
 //			password = getPassFromTerminal();
-			//After compiling, run using:
-			//java -classpath /oracle/jdbc/lib/ojdbc6.jar:. Test2
+//			//After compiling, run using:
+//			//java -classpath /oracle/jdbc/lib/ojdbc6.jar:. Test2
+
 			password = getPassFromDialog();
 
 			Class drvClass = Class.forName("oracle.jdbc.driver.OracleDriver"); //(dynamically) loads jdbc driver
